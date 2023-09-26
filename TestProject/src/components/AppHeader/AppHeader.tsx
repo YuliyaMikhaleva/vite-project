@@ -9,6 +9,8 @@ const AppHeader = ({ className }) => {
     <div className={classes}>
         <Link to="/">Главная</Link>
         <Link to="/profile">Профиль</Link>
+        <Link to="/sign-in">Авторизация</Link>
+        <Link to="/sign-up">Регистрация</Link>
     </div>
   );
 };

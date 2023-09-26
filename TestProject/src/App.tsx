@@ -1,4 +1,3 @@
-import './App.scss'
 import AppBody from "./components/AppBody";
 import AppHeader from "./components/AppHeader";
 import AppFooter from "./components/AppFooter";
