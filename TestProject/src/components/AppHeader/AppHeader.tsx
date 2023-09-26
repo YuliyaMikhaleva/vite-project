@@ -7,10 +7,10 @@ const AppHeader = ({ className }) => {
 
   return (
     <div className={classes}>
-        <Link to="/">Главная</Link>
-        <Link to="/profile">Профиль</Link>
-        <Link to="/sign-in">Авторизация</Link>
-        <Link to="/sign-up">Регистрация</Link>
+        <Link className="app-header__link" to="/">Главная</Link>
+        <Link className="app-header__link" to="/profile">Профиль</Link>
+        <Link className="app-header__link" to="/sign-in">Авторизация</Link>
+        <Link className="app-header__link" to="/sign-up">Регистрация</Link>
     </div>
   );
 };
